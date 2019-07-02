@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_element">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar" />
+
+        <android.support.v4.widget.DrawerLayout
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/drawer_layout"
+            android:fitsSystemWindows="false"
+            tools:openDrawer="start">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/child_element"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <android.support.design.widget.NavigationView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/navigation_view"
+                android:layout_gravity="start"
+                android:fitsSystemWindows="false"
+                android:splitMotionEvents="true"
+                app:itemIconTint="@color/colorAccent"
+                android:background="#e4e4e4"
+                app:itemTextColor="@color/Black"
+                app:headerLayout="@layout/navigation_header"
+                app:menu="@menu/navigation_menu">
+
+            </android.support.design.widget.NavigationView>
+
+        </android.support.v4.widget.DrawerLayout>
+
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:id="@+id/base_progress_bar"/>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

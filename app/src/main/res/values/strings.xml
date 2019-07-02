@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SMS App</string>
+    <string name="email_label">Email</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="botton_register">Register</string>
+    <string name="botton_login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="open_drawer">opening drawer</string>
+    <string name="close_drawer">closing drawer</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--SharedPrefrences-->
+    <string name="pref_file">com.np.preference_file</string>
+    <string name="pref_login_status">com.np.preference_login_status</string>
+    <string name="pref_user_token">com.np.preference_token</string>
+    <string name="pref_user_deviceId">com.np.preference_device_id</string>
+
+</resources>

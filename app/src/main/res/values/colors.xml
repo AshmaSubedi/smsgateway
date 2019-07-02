@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#81c784</color>
+    <color name="colorPrimaryDark">#519657</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackroundWhite">#f0f2ea</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#c7c7c7</color>
+    <color name="colorGrayishBlack">#484848</color>
+    <color name="colorBlack">#212121</color>
+
+    <color name="colorLightGrey">#E0E0E0</color>
+    <color name="colorBtnOrange">#ff7043</color>
+    <color name="colorTextOrange">#FFAB91</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightBackground">#F5F5F5</color>
+    <color name="danger">#F44336</color>
+    <color name="primary">#4CAF50</color>
+
+    <color name="HeroBackground">#8B0000</color>
+    <color name="EditTextBackground">#da1111</color>
+    <color name="TextColor">#0a0707</color>
+    <color name="Red">#ea2027</color>
+    <color name="Black">#000</color>
+    <color name="White">#ffffff</color>
+
+    <color name="Background">#bdbcbc</color>
+    <color name="NGMtheme">#0c4ca3</color>
+
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorRed">#ea2027</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorOrange">#EF6C00</color>
+    <color name="colorGrey">#CCCCCC</color>
+    <color name="colorDarkGrey">#4B4B4B</color>
+    <color name="colorMattePink">#EA9482</color>
+    <color name="lightBlue">#E620A4FA</color>
+
+</resources>

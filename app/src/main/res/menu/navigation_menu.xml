@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:icon="@drawable/ic_profile"
+            android:iconTint="@color/colorDarkGrey"
+            android:title="@string/profile"
+            android:id="@+id/profile_drawer" />
+
+    <item
+        android:icon="@drawable/ic_inbox"
+        android:iconTint="@color/colorDarkGrey"
+        android:title="@string/profile"
+        android:id="@+id/outbox" />
+
+    <item
+        android:icon="@drawable/ic_outbox"
+        android:iconTint="@color/colorDarkGrey"
+        android:title="@string/profile"
+        android:id="@+id/inbox" />
+
+
+
+
+
+</menu>
